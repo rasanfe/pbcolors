@@ -111,9 +111,12 @@ end type
 end forward
 
 global type w_seleccionar_color from w_popup
-integer width = 2235
+integer width = 2240
 integer height = 1692
 string title = "Seleccionar Color"
+boolean controlmenu = true
+boolean minbox = true
+windowtype windowtype = main!
 long backcolor = 1073741824
 st_5 st_5
 r_2 r_2
@@ -521,8 +524,8 @@ event open;call super::open;wf_version(st_myversion, st_platform)
 end event
 
 type st_5 from statictext within w_seleccionar_color
-integer x = 928
-integer y = 1548
+integer x = 933
+integer y = 1556
 integer width = 1289
 integer height = 52
 integer textsize = -7
@@ -541,7 +544,7 @@ long linecolor = 33554432
 linestyle linestyle = transparent!
 integer linethickness = 4
 long fillcolor = 33521664
-integer width = 2217
+integer width = 2501
 integer height = 260
 end type
 
