@@ -21,7 +21,7 @@ long richtexteditversion = 1
 string richtexteditkey = ""
 string appicon = "icono.ico"
 string fullbuildruntimeversion = "19.2.0.2622"
-string appruntimeversion = "22.2.0.3289"
+string appruntimeversion = "22.2.0.3356"
 end type
 global pbcolors pbcolors
 
