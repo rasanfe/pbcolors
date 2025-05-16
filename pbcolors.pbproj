@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Project>
+  <Type Name="pb"/>
+  <Application Name="pbcolors"/>
+  <Libraries AppEntry="pbcolors.pbl">
+    <Library Path="pbcolors.pbl"/>
+    <Library Path="ancestors.pbl"/>
+    <Library Path="myobjects.pbl"/>
+  </Libraries>
+</Project>
